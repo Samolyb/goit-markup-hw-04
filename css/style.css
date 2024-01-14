@@ -226,7 +226,15 @@ body {
     padding-bottom: 120px;
 }
 
-.features-container {}
+.features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
 .features-list {
     display: flex;
