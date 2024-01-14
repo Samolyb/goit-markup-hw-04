@@ -241,6 +241,7 @@ body {
 
 .features-item {
     width: calc((100% - 3 * 24px) / 4);
+
 }
 
 .features-box {
@@ -257,7 +258,7 @@ body {
 .features-icon {
     width: 64px;
     height: 64px;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
 }
 
 .features-item-title {
