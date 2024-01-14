@@ -247,9 +247,6 @@ body {
 
 .features-item {
     width: calc((100% - 3 * 24px) / 4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .features-link {
