@@ -173,16 +173,20 @@ body {
 }
 
 .hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
     max-width: 1440px;
-    background-color: #2e2f42;
+    width: 100%;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70),
             rgba(46, 47, 66, 0.70)),
         url(../images/people-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 
@@ -245,6 +249,30 @@ body {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.features-link {
+    width: 264px;
+    height: 112px;
+    /* flex-shrink: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+}
+
+.features-box {
+    /* width: 264px;
+    height: 112px; */
+}
+
+.features-icon {
+    width: 64px;
+    height: 64px;
+    /* flex-shrink: 0; */
+}
+
 .features-item-title {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
@@ -257,11 +285,6 @@ body {
     margin-top: 8px;
 }
 
-.features-icon {
-    width: 64px;
-    height: 64px;
-    flex-shrink: 0;
-}
 
 .features-item-text {
     color: #434455;
@@ -274,18 +297,6 @@ body {
     width: 264px;
 }
 
-.features-link {
-    width: 264px;
-    height: 112px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 4px;
-    border: 1px solid #8E8F99;
-    background: #F4F4FD;
-}
 
 .team {
     background-color: #F4F4FD;
