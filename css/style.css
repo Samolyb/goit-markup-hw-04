@@ -226,6 +226,8 @@ body {
     padding-bottom: 120px;
 }
 
+.features-container {}
+
 .features-list {
     display: flex;
     gap: 24px;
