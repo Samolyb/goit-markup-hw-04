@@ -305,6 +305,10 @@ body {
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     width: calc((100% - 3 * 24px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    fill: #f4f4fd;
 }
 
 .team-item:hover .team-soc-link {
@@ -346,9 +350,7 @@ body {
 
 .team-soc-icon {}
 
-.team-soc-icon:hover {
-    fill: #f4f4fd;
-}
+.team-soc-icon:hover {}
 
 .team-soc-list {
     display: flex;
